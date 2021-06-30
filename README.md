@@ -1,3 +1,3 @@
 # ProgramacionWebVerano
 
-clases de verano progrmacion web
+clases de verano programacion web
