@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <form action="#">
+        <h3>text</h3>
+        <label for="nombre">Nombre</label>
+        <input 
+        type="text" 
+        id="nombre"
+        name="nombre"
+        placeholder="Ingrese un Nombre"
+        size="40"
+        value=""
+        maxlength="15"
+        >
+
+        <h3>Radio</h3>
+
+        <fieldset>
+            <legend>Género</legend>
+            <input type="radio" id="hombre" name="genero" value="hombre" checked>
+            <label for="hombre">Hombre</label>
+
+            <input type="radio" id="mujer" name="genero" value="mujer">
+            <label for="mujer">Mujer</label>
+
+            <input type="radio" id="otro" name="genero" value="otro">
+            <label for="otro">Otro</label>
+        </fieldset>
+
+        <h3>TextArea</h3>
+        <textarea name="mensaje" id="mitexto" cols="40" rows="5" placeholder="Escriba aqui..."></textarea>
+
+        <h3>CheckBox</h3>
+        <h5>Seleccione tus colores favoritos</h5>
+        <input type="checkbox" name="rosa" value="valor1" checked> Rosa 
+        <input type="checkbox" name="azul" value="valor2"> Azul 
+    </form>
+
+</body>
+</html>

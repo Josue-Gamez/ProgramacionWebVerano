@@ -1,0 +1,42 @@
+body{
+    max-width: 1024px;
+}
+
+header{
+    background:  blue;
+    text-align: center;
+    color: aliceblue
+}
+
+header h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav ul li{
+    width: 150px;
+    background:  orange;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#seccion1{
+    background: paleturquoise;
+}
+
+.secc1Art{
+    width: 49%;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#seccion2{
+    color: red;
+}
+
+footer{
+    background: blueviolet;
+    color: aliceblue;
+}
+
